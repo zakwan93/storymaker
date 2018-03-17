@@ -1,0 +1,11 @@
+var adjective = prompt("Please enter an Adjective!");
+var line1 = ( " <h1> The girls, " + adjective);
+var verb = prompt("Enter a verb");
+var line2 = (line1 + " realized their " + verb +  "  mistake. They had ");
+var adjective1 = prompt("Please enter an one more Adjective!");
+var line3 = (line2 + adjective1 + " made their cake too ");
+var verb1 = prompt("Enter second verb");
+var line4 = (line3 + verb1 + " They had to do something ");
+var verb2 = prompt("Enter third verb");
+var line5 = (line4 + verb2) ;
+document.write(line5);
